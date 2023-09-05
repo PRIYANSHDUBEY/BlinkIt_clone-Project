@@ -19,10 +19,10 @@ a{
 /* Animation */
 
 .shake-hover:hover{
-    animation: cart-animation 4s linear 0s 1;
+    animation: shake 4s linear 0s 1;
 }
 
-@keyframes cart-animation{
+@keyframes shake{
     0%{
         transform: rotate(-20deg);
     }
